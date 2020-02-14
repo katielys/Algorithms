@@ -1,4 +1,6 @@
 # Bubble Sort is a sorting algorithm that can be applied to Arrays and Dynamic Lists.
+# Time complexity : O(n^2)
+# Space complexity: O(1) 
 def bubblesort(vec):
     for iter_num in range(len(vec)-1,0,-1):
         for i in range(iter_num):
